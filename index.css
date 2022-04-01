@@ -1,6 +1,30 @@
-.center {
+body {
+  background-color:rgb(230, 230, 216);
+  background-image: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/322/white-circle_26aa.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 500px;
+  font-family: Times;
+  font-style: italic;
+  font-size: 450%;
+  line-height: 10px;
+}
+
+.head {
   display: flex;
+  top: 50%;
   justify-content: center;
   align-items: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Times;
+  font-size: 60%;
+}
+
+a {
+  text-decoration: none;
+  color:#000000;
+}
+
+a:hover {
+  color: rgb(135, 116, 106);
 }
